@@ -4,13 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>S'mores</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #e9e3e3;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .navigation {
+            position:absolute;
+            top: 20px;
+        }
+        h2 {
+            color: #333;
+            text-align: center;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            color: #333;
+            overflow-wrap: break-word;
+            text-align: center;
+        }
+        .recipe-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
 </head>
 <body>
     <h1>S'mores</h1>
-    <a href="../index.html">Back to Recipes</a>
     <!-- Image of S'mores -->
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzYk_T3seClvv_oX5fvFUkW6yxDWhhTfX20s10Yhoi4Q&s=10" alt="S'mores" width="300">
     <!-- Description of the S'mores -->
+     <div><a class="navigation" href="../index.html">Back to Recipes</a></div>
+     <div class="recipe-container">
     <h2>Description</h2>
     <p>S'mores are a classic treat to have on camping trips, a cold night by the fire, or just a simple snack to enjoy.</p>
     <!-- Ingredients for S'mores -->
@@ -29,5 +68,6 @@
         <li>Place the marshmallow on the chocolate and then cover with the other graham cracker half.</li>
         <li>Push down on the cracker just enough to secure the marshmallow and then slide the bamboo stick out of the marshmallow.</li>
     </ol>
+    </div>
 </body>
 </html>
